@@ -1,11 +1,11 @@
 let num=47;
-let factor=0;
+let count=0;
 for(let i=1;i<=num;i++){
-  if(num%i==0){
-    factor++;
+  if(n%i==0){
+    count++;
   }
 }
-if(factor==2){
+if(count==2){
   console.log("it is prime");
 }
 else{
